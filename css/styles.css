@@ -113,11 +113,12 @@ img {
 }
 
 .address-list{
-    display: flex;
-    gap: 40px;
+    
 }
 
 .address-link{
+    display: flex;
+    gap: 40px;
     list-style: none;
 }
 
