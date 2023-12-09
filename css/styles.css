@@ -35,7 +35,7 @@ img {
 /* Header */
 
 .header {
-    width: 1158px;
+    
     margin: 0 auto;
     padding: 0 15px 0 15px;
     display: flex;
@@ -45,7 +45,7 @@ img {
 }
 
 .container-header{
-    width: 1158px;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
