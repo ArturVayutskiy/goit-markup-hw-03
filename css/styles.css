@@ -139,6 +139,7 @@ img {
 }
 
 .title-section-first {
+    padding: 120px 0;
     max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
@@ -172,11 +173,32 @@ img {
 
 /* Section Second */
 
-/* .section-second-list {
-    
-} */
+.section-second {
+    padding: 120px 0;
+}
+
+.visually-hidden{
+
+}
 
 .section-second-title {
+   visibility: hidden;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+
+}
+
+.section-second-list {
+    width: calc((100% - 72px) / 4);
+}
+
+
+.section-second-list-title {
+    margin-bottom: 8px;
     color: #2E2F42;
     font-family: Roboto;
     font-size: 20px;
