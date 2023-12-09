@@ -4,9 +4,6 @@ body {
     background-color: #FFFFFF;
 }
 
-.list {
-    list-style:none;
-}
 
 a {
     text-decoration:none;  
@@ -34,6 +31,12 @@ ul, ol {
 }
 
 /* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
 .header-logo {
     color: var(--IRIS, #4D5AE5);
     font-family: "Raleway", sans-serif;
