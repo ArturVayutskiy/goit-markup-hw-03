@@ -223,10 +223,12 @@ img {
 
 /* Section third */
 .section-third {
+    padding: 120px 0;
     background-color: #F4F4FD;
 }
 
 .section-third-title {
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -236,10 +238,17 @@ img {
 }
 
 .section-third-list {
+    border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF
 }
 
+.person-name {
+    padding: 32px 0;
+}
+
 .section-third-list-title {
+    text-align: center;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -248,6 +257,7 @@ img {
 }
 
 .section-third-list-parag {
+    text-align: center;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
